@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script>
+        alert("1111")
+    </script> -->
+</head>
+
+<body>
+    <img id="light" src="img/off.gif"> <br>
+
+    <input type="button" value="点亮" onclick="on()">
+    <input type="button" value="熄灭" onclick="off()">
+
+    <br> <br>
+
+    <input type="text" id="name" value="ITCAST" onfocus="lower()" onblur="upper()">
+    <br> <br>
+
+    <input type="checkbox" name="hobby"> 电影
+    <input type="checkbox" name="hobby"> 旅游
+    <input type="checkbox" name="hobby"> 游戏
+    <br>
+
+    <input type="button" value="全选" onclick="checkAll()">
+    <input type="button" value="反选" onclick="reverse()">
+
+</body>
+<script>
+    function on() {
+        var img = document.getElementById("light")
+        img.src = "img/on.gif"
+    }
+    function off() {
+        var img = document.getElementById("light")
+        img.src = "img/off.gif"
+    }
+    function lower() {
+        var value = document.getElementById('name').value
+        document.getElementById('name').value = value.toLowerCase()
+    }
+    function upper() {
+        var value = document.getElementById('name').value
+        document.getElementById('name').value = value.toUpperCase()
+    }
+    function checkAll() {
+        var ins = document.getElementsByName('hobby')
+        for (let i = 0; i < ins.length; i++) {
+            const check = ins[i];
+            check.checked = true;
+
+        }
+    }
+    function reverse() {
+        var ins = document.getElementsByName('hobby')
+        for (let i = 0; i < ins.length; i++) {
+            const check = ins[i];
+            check.checked = false;
+
+        }
+    }
+
+</script>
+
+</html>
