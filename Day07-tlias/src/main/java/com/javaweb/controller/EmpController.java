@@ -1,5 +1,7 @@
 package com.javaweb.controller;
 
+import com.javaweb.pojo.Dept;
+import com.javaweb.pojo.Emp;
 import com.javaweb.pojo.PageBean;
 import com.javaweb.pojo.Result;
 import com.javaweb.service.EmpService;
@@ -40,6 +42,27 @@ public class EmpController {
     public Result delete(@PathVariable List<Integer> ids) {
         log.info("批量删除，ids:{}", ids);
         empService.delete(ids);
+        return Result.success();
+    }
+
+    @PostMapping
+    public Result save(@RequestBody Emp emp){
+        log.info("新增员工，emp:{}", emp);
+        empService.save(emp);
+        return Result.success();
+    }
+
+    @GetMapping("/{id}")
+    public Result query(@PathVariable Integer id) { // 拼接的路径参数@PathVariable
+        log.info("根据id查询员工:{}", id);
+        Emp emp = empService.query(id);
+        return Result.success(emp);
+    }
+
+    @PutMapping
+    public Result update(@RequestBody Emp emp) {
+        log.info("修改emp:{}", emp);
+        empService.update(emp);
         return Result.success();
     }
 

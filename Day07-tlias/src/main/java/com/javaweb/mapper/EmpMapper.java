@@ -1,6 +1,7 @@
 package com.javaweb.mapper;
 
 import com.javaweb.pojo.Emp;
+import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 
@@ -24,4 +25,17 @@ public interface EmpMapper {
                           LocalDate begin, LocalDate end);
 
     void delete(List<Integer> ids);
+
+    @Insert("insert into tlias.emp(username, name, gender, image, job, entrydate, dept_id, create_time, update_time) " +
+            "values (#{username},#{name},#{gender},#{image},#{job},#{entrydate},#{deptId},#{createTime},#{updateTime})")
+    void insert(Emp emp);
+
+    @Select("select * from tlias.emp where id = #{id}")
+    Emp queryById(Integer id);
+
+
+    void update(Emp emp);
+
+    @Select("select * from tlias.emp where username=#{username} and password=#{password}")
+    Emp getByUsernameAndPassword(Emp emp);
 }
