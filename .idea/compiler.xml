@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Day04-test" />
         <module name="Day03" />
+        <module name="Day07-tlias" />
         <module name="Day04" />
         <module name="Day06" />
       </profile>
@@ -19,6 +20,7 @@
       <module name="Day04" options="-parameters" />
       <module name="Day04-test" options="-parameters" />
       <module name="Day06" options="-parameters" />
+      <module name="Day07-tlias" options="-parameters" />
     </option>
   </component>
 </project>
