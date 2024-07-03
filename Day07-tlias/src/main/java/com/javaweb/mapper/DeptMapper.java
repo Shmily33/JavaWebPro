@@ -28,4 +28,6 @@ public interface DeptMapper {
 
     @Update("update tlias.dept set name = #{name} where id =#{id}")
     void update(Dept dept);
+
+
 }

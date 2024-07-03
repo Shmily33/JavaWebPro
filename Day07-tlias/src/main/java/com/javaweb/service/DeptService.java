@@ -23,4 +23,6 @@ public interface DeptService {
     Dept query(Integer id);
 
     void update(Dept dept);
+
+
 }

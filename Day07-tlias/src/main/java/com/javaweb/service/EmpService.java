@@ -2,6 +2,7 @@ package com.javaweb.service;
 
 import com.javaweb.pojo.Emp;
 import com.javaweb.pojo.PageBean;
+import org.apache.ibatis.annotations.Delete;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.time.LocalDate;
