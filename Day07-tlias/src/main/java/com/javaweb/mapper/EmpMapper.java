@@ -1,5 +1,6 @@
 package com.javaweb.mapper;
 
+import com.javaweb.pojo.DeptLog;
 import com.javaweb.pojo.Emp;
 import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
@@ -16,6 +17,8 @@ import java.util.List;
  */
 @Mapper
 public interface EmpMapper {
+
+
 
     @Select("select count(*) from tlias.emp")
     public Long count();

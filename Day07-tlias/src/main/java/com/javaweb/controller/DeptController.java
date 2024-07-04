@@ -34,7 +34,7 @@ public class DeptController {
     }
 
     @DeleteMapping("/{id}")
-    public Result delete(@PathVariable Integer id) { // 拼接的路径参数@PathVariable
+    public Result delete(@PathVariable Integer id) throws Exception { // 拼接的路径参数@PathVariable
         log.info("根据id删除部门:{}", id);
         deptService.delete(id);
         return Result.success();
