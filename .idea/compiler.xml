@@ -11,6 +11,7 @@
         <module name="Day03" />
         <module name="Day07-tlias" />
         <module name="Day04" />
+        <module name="Day08-aop" />
         <module name="Day06" />
       </profile>
     </annotationProcessing>
@@ -21,6 +22,7 @@
       <module name="Day04-test" options="-parameters" />
       <module name="Day06" options="-parameters" />
       <module name="Day07-tlias" options="-parameters" />
+      <module name="Day08-aop" options="-parameters" />
     </option>
   </component>
 </project>
