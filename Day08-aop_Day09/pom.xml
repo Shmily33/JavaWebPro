@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.javaweb</groupId>
-	<artifactId>Day08-aop</artifactId>
+	<artifactId>Day08-aop_Day09</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Day08-aop</name>
 	<description>Day08-aop</description>
@@ -66,21 +66,28 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-aop</artifactId>
 		</dependency>
+
+		<dependency>
+			<groupId>com.example</groupId>
+			<artifactId>itheima-utils</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
 	</dependencies>
-	<repositories>
-		<repository>
-			<id>central</id>
-			<name>aliyun maven</name>
-			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
-			<layout>default</layout>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
+<!--	<repositories>-->
+<!--		<repository>-->
+<!--			<id>central</id>-->
+<!--			<name>aliyun maven</name>-->
+<!--			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>-->
+<!--			<layout>default</layout>-->
+<!--			<releases>-->
+<!--				<enabled>true</enabled>-->
+<!--			</releases>-->
+<!--			<snapshots>-->
+<!--				<enabled>true</enabled>-->
+<!--			</snapshots>-->
+<!--		</repository>-->
+<!--	</repositories>-->
 
 	<build>
 		<plugins>

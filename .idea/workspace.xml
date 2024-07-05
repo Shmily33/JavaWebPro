@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e929f26b-90c6-4c3e-b9a4-1e7c4ffe92cb" name="更改" comment="aop">
+      <change afterPath="$PROJECT_DIR$/itheima-utils/itheima-utils.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima-utils/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima-utils/src/main/java/com/example/EnableHeaderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima-utils/src/main/java/com/example/HeaderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima-utils/src/main/java/com/example/HeaderGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima-utils/src/main/java/com/example/HeaderParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima-utils/src/main/java/com/example/MyImportSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itheima-utils/src/main/java/com/example/TokenParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day08-aop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day08-aop_Day09/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day08-aop/src/main/java/com/javaweb/Day08AopApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day08-aop_Day09/src/main/java/com/javaweb/Day08AopApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day08-aop/src/main/java/com/javaweb/aop/MyLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day08-aop_Day09/src/main/java/com/javaweb/aop/MyLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day08-aop/src/main/java/com/javaweb/aop/TimeAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day08-aop_Day09/src/main/java/com/javaweb/aop/TimeAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day08-aop/src/main/java/com/javaweb/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day08-aop_Day09/src/main/java/com/javaweb/controller/DeptController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day08-aop/src/main/java/com/javaweb/mapper/DeptMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day08-aop_Day09/src/main/java/com/javaweb/mapper/DeptMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day08-aop/src/main/java/com/javaweb/pojo/Dept.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day08-aop_Day09/src/main/java/com/javaweb/pojo/Dept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day08-aop/src/main/java/com/javaweb/pojo/PageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day08-aop_Day09/src/main/java/com/javaweb/pojo/PageBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day08-aop/src/main/java/com/javaweb/pojo/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day08-aop_Day09/src/main/java/com/javaweb/pojo/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day08-aop/src/main/java/com/javaweb/service/DeptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day08-aop_Day09/src/main/java/com/javaweb/service/DeptService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day08-aop/src/main/java/com/javaweb/service/impl/DeptServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day08-aop_Day09/src/main/java/com/javaweb/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day08-aop/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Day08-aop_Day09/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day08-aop/src/test/java/com/javaweb/Day08AopApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day08-aop_Day09/src/test/java/com/javaweb/Day08AopApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="AnnotationType" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:/Maven/apache-maven-3.6.0" />
+        <option name="localRepository" value="D:\Maven\myRepository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2ilrzbQGX3OJJA3JZYkxnfKQghE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JUnit.Day08AopApplicationTests.testGetBean.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.Day08AopApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/桌面/javaWeb/day14-SpringBoot原理篇/资料/03. 自动配置原理/itheima-utils/pom.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql_aurora_aws"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\桌面\java_Project\JavaWebPro\Day08-aop\src\main\resources" />
+      <recent name="E:\桌面\java_Project\JavaWebPro\Day08-aop\src\main\java\com\javaweb" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\桌面\java_Project\JavaWebPro" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.Day08AopApplicationTests.testGetBean">
+    <configuration name="Day08AopApplicationTests.testGetBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Day08-aop_Day09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaweb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javaweb" />
+      <option name="MAIN_CLASS_NAME" value="com.javaweb.Day08AopApplicationTests" />
+      <option name="METHOD_NAME" value="testGetBean" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day04Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Day04" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.javaweb.Day04Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day04TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Day04-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.javaweb.Day04TestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day06Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Day06" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.javaweb.Day06Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day07TliasApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Day07-tlias" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.javaweb.Day07TliasApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day08AopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Day08-aop_Day09" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.javaweb.Day08AopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Day08AopApplicationTests.testGetBean" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="e929f26b-90c6-4c3e-b9a4-1e7c4ffe92cb" name="更改" comment="" />
+      <created>1720076269084</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720076269084</updated>
+      <workItem from="1720076270534" duration="5019000" />
+      <workItem from="1720161545547" duration="5222000" />
+    </task>
+    <task id="LOCAL-00001" summary="aop">
+      <option name="closed" value="true" />
+      <created>1720081512582</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720081512582</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="aop" />
+    <option name="LAST_COMMIT_MESSAGE" value="aop" />
+  </component>
+</project>
